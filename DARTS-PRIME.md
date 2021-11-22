@@ -1,0 +1,5 @@
+# DARTS-PRIME: Regularization and Scheduling Improve Constrained Optimization in Differentiable NAS
+
+## 1. アブスト
+Differentiable Architecture Search (DARTS)は、微分可能な緩和に基づいた最近のニューラル・アーキテクチャ・サーチ(NAS)手法です。その成功により、最近ではDARTSフレームワークの一部を分析、改良した多くのバリエーションが提案されています。本研究では、問題を制約付き二階建て最適化と見なし、アーキテクチャの重み更新のスケジューリングと離散化のための正則化を改良したDARTS-PRIMEを提案し、分析します。DARTS-PRIMEは、アーキテクチャの更新をより情報に基づいたものにするために、ミニバッチごとのネットワーク情報に基づいた動的なスケジュールを提案し、また、分離された離散化を促進するために近接正則化を提案します。複数のドメインでの結果から、DARTSPRIMEは微分可能なNASの最先端技術に匹敵する性能と信頼性の両方を向上させることが分かりました。
+
